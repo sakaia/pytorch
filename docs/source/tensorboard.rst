@@ -83,18 +83,25 @@ Expected result:
 .. autoclass:: SummaryWriter
 
    .. automethod:: __init__
+   .. automethod:: add_event
+   .. automethod:: add_summary
    .. automethod:: add_scalar
    .. automethod:: add_scalars
    .. automethod:: add_histogram
    .. automethod:: add_histogram_raw
    .. automethod:: add_image
    .. automethod:: add_images
+   .. automethod:: add_image_with_boxes
    .. automethod:: add_figure
    .. automethod:: add_video
    .. automethod:: add_audio
    .. automethod:: add_text
    .. automethod:: add_graph
+   .. automethod:: add_onnx_graph
    .. automethod:: add_embedding
    .. automethod:: add_pr_curve
+   .. automethod:: add_pr_curve_raw
    .. automethod:: add_custom_scalars
+   .. automethod:: add_custom_scalars_multilinechart
+   .. automethod:: add_custom_scalars_marginchart
    .. automethod:: add_mesh
